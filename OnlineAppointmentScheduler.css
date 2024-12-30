@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e9ecef; /* Lighter background for contrast */
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: #ffffff; /* White background for the container */
+    padding: 30px; /* More padding for better spacing */
+    border-radius: 8px; /* Slightly rounder corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Deeper shadow for depth */
+}
+
+h1 {
+    color: #007bff; /* A nice blue for the main heading */
+    text-align: center; /* Centered heading for better aesthetics */
+}
+
+h2 {
+    color: #495057; /* Dark grey for subheadings */
+}
+
+.appointment-form, .upcoming-appointments {
+    margin-bottom: 25px; /* More spacing between sections */
+}
+
+input {
+    width: calc(100% - 20px);
+    padding: 12px; /* Larger padding for inputs */
+    margin: 10px 0;
+    border: 1px solid #ced4da; /* Light grey border */
+    border-radius: 4px;
+    background-color: #f8f9fa; /* Light background for inputs */
+    transition: border-color 0.2s; /* Smooth border transition */
+}
+
+input:focus {
+    border-color: #007bff; /* Blue border on focus */
+    outline: none; /* Remove default outline */
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    background-color: #007bff; /* Blue background for buttons */
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s; /* Smooth background change */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background: #f0f4f8; /* Very light blue for list items */
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #dee2e6; /* Light grey border for items */
+    border-radius: 4px;
+}
